@@ -1,0 +1,21 @@
+.hero__inner {
+  padding-top: 80px;
+  padding-bottom: 345px;
+  background-image: url("../../images/down-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 30px 107px;
+  background-position: center calc(50% + 50px);
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 97px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 69px;
+  text-align: center;
+  letter-spacing: 8.75px;
+  text-transform: uppercase;
+  color: #fff;
+}

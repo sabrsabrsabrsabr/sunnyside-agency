@@ -1,0 +1,45 @@
+.intro__inner {
+  display: flex;
+}
+
+.intro__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 106px;
+  padding-right: 165px;
+  width: 100%;
+  max-width: 720px;
+}
+
+.intro__text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.285714px;
+  color: #24303E;
+}
+
+.intro__desc {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.128571px;
+  color: #808397;
+}
+
+.intro__link {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24303E;
+  text-decoration: none;
+}
