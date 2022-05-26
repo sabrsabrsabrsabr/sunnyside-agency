@@ -417,9 +417,11 @@ img {
   width: 1px;
 }
 
-.container {
-  width: 1380px;
+.header__container {
+  width: 100%;
+  max-width: 1392px;
   margin: 0 auto;
   padding: 0 20px;
+  background-image: url("../../images/bgimg.png");
 }
 /*# sourceMappingURL=main.css.map */
