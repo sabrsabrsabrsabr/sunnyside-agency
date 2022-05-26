@@ -1,13 +1,14 @@
 .intro__inner {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .intro__content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 106px;
   padding-right: 165px;
+  padding-left: 106px;
   width: 100%;
   max-width: 720px;
 }
@@ -42,4 +43,50 @@
   text-transform: uppercase;
   color: #24303E;
   text-decoration: none;
+}
+
+.intro__element {
+  padding-top: 397px;
+  padding-right: 190px;
+  padding-bottom: 60px;
+  padding-left: 191px;
+  width: 100%;
+  max-width: 720px;
+  background-image: url("../../images/cherry-img.png");
+  background-repeat: no-repeat;
+  background-size: 720px 600px;
+}
+
+.intro__texts {
+  margin: 0;
+  margin-bottom: 27px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #24554A;
+}
+
+.intro__paragraph {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  color: #3E7467;
+}
+
+.intro__elements {
+  padding-top: 397px;
+  padding-right: 190px;
+  padding-bottom: 60px;
+  padding-left: 191px;
+  width: 100%;
+  max-width: 720px;
+  background-image: url("../../images/orange-img.png");
+  background-repeat: no-repeat;
+  background-size: 720px 600px;
 }
