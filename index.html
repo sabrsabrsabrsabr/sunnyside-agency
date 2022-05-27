@@ -32,7 +32,15 @@
                 <a class="site-menu__link" href="#">Contact</a>
               </li>
             </ul>
+
+            <div class="border"></div>
           </nav>
+
+          <button class="burger-button">
+            <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H24V2H0V0ZM0 8H24V10H0V8ZM24 16H0V18H24V16Z" fill="white"/>
+                </svg>
+        </button>
         </div>
       </div>
     </header>
@@ -41,7 +49,9 @@
       <section class="hero">
         <div class="container">
           <section class="hero__inner">
-            <h1 class="hero__title">We are creatives</h1>            
+            <div class="hero__content">
+              <h1 class="hero__title">We are creatives</h1>
+            </div>            
           </section>
         </div>
       </section>
@@ -49,8 +59,8 @@
 
     <section class="intro">
       <div class="container">
-        <section class="intro__inner">
-          <div class="intro__inner">
+        <div class="intro__inner">
+          <div class="intro__content-one">
             <div class="intro__content">
               <h2 class="intro__text">Transform your brand</h2>
               <p class="intro__desc">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -58,25 +68,28 @@
             </div>
             
             <img class="intro__img" src="./images/egg-img.png" srcset="./images/egg-img.png 1x, ./images/egg-img@2x.png 2x" alt="an egg with yellow bgcolor" width="720" height="600">
-
-            <img class="intro__img" src="./images/glass-img.png" srcset="./images/glass-img.png 1x, ./images/glass-img@2x.png 2x" alt="an egg with yellow bgcolor" width="720" height="600">
-            <div class="intro__content">
-              <h2 class="intro__text">Stand out to the right audience</h2>
-              <p class="intro__desc">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-              <a class="intro__link" href="#">learn more</a>
-            </div>
-
-            <div class="intro__element">
-              <h2 class="intro__texts">Graphic Design</h2>
-              <p class="intro__paragraph">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-            </div>
-
-            <div class="intro__elements">
-              <h2 class="intro__texts">Photography</h2>
-              <p class="intro__paragraph">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-            </div>
           </div>
-        </section>
+
+          <div class="intro__content-two">
+            <img class="intro__img" src="./images/glass-img.png" srcset="./images/glass-img.png 1x, ./images/glass-img@2x.png 2x" alt="an egg with yellow bgcolor" width="720" height="600">
+          
+          <div class="intro__content">
+            <h2 class="intro__text">Stand out to the right audience</h2>
+            <p class="intro__desc">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+            <a class="intro__link" href="#">learn more</a>
+          </div>
+          </div>
+
+          <div class="intro__element">
+            <h2 class="intro__texts">Graphic Design</h2>
+            <p class="intro__paragraph">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+          </div>
+
+          <div class="intro__elements">
+            <h2 class="intro__texts">Photography</h2>
+            <p class="intro__paragraph">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -92,5 +105,6 @@
   <footer>
     
   </footer>
+  <script src="./js/main.js"></script>
 </body>
 </html>
