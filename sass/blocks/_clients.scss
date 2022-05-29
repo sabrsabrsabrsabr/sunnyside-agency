@@ -1,0 +1,92 @@
+.clients {
+  
+  &__trade {
+    margin-top: 160px;
+    margin-bottom: 81px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+  }
+  
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  &__item {
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  &__images {
+    margin-bottom: 58px;
+  }
+  
+  &__text {
+    margin-bottom: 69px;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+  }
+  
+  &__man {
+    margin-bottom: 9px;
+    font-family: 'Fraunces 9pt Soft';
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+  }
+  
+  &__chief {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .clients__list {
+    display: block;
+  }
+  
+  .clients__item {
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container {
+    padding:  0 5px;
+  }
+
+  .products__list {
+    display: block;
+  }
+}
+
+.products {
+
+  &__list {
+    display: flex;
+flex-wrap: wrap;
+margin-top: 145px;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+
+  .products__list {
+    display: block;
+    text-align: center;
+  }
+}

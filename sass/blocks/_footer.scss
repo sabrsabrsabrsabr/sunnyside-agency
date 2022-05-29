@@ -1,0 +1,37 @@
+.footer {
+  background-color: #90D4C6;
+  width: 100%;
+  
+  &__images {
+    margin-top: 72px;
+  }
+  
+  &__inner {
+    text-align: center;
+  }
+  
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  &__link {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458D7E;
+  }
+  
+  &__item {
+    margin-top: 40px;
+    margin-bottom: 88px;
+    margin-right: 57px;
+  }
+
+  &__item--link {
+    margin-right: 28px;
+    margin-bottom: 72px;
+  }
+}
